@@ -79,8 +79,14 @@ form button {
   border-radius: 12px;
 }
 
+.link_createAcount {
+    text-decoration: none;
+    color: #0000d6;
+    font-size: 20px;
+}
+
 a:hover {
-  color: black;
-  background-color: rgb(212, 212, 212);
-  border-radius: 15px;
+    color: black;
+    background-color: rgb(212, 212, 212);
+    border-radius: 15px;
 }
