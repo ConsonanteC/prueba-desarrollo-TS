@@ -3,44 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="./src/styles/index.css">
+    <title>Register</title>
+    <link rel="stylesheet" href="../styles/register.css">
 
     <!-- font size -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap" rel="stylesheet">
 </head>
-<body>  
+<body>
     <nav>
         <div id="div_title" class="div-title">
             <h2>Data Leaker Gates</h2>
         </div>
 
         <div id="nav_links" class="nav-links">
-            <a href="./src/views/home.html" target="_blank"><strong>Home</strong></a>
+            <a href="./home.html" target="_blank"><strong>Home</strong></a>
             <a href="/" target="_blank"><strong>Login</strong></a>
-            <a href="./src/views/register.html" target="_blank"><strong>Register</strong></a>
-            <a href="./src/views/create-update.html" target="_blank"><strong>Create / Update</strong></a>
+            <a href="./register.html" target="_blank"><strong>Register</strong></a>
+            <a href="./create-update.html" target="_blank"><strong>Create / Update</strong></a>
         </div>
     </nav>
 
     <main>
-        <h1>Is moment of Login or creat an account</h1>
+        <h1>¡Hello! Here you can to do your register</h1>
 
-        <form id="formLogin">
+        <form id="formRegister">
+            <label for="name">Name</label>
+            <input type="text" id="name">
             <label for="email">Enter your email</label>
             <input type="email" id="email">
             <label for="password">Enter your password</label>
             <input type="password" id="password">
-            <button type="submit">Log In </button>
+            <button type="submit">Create account</button>
         </form>
-        <p> 
-            if you don't have an account please click here: <a class="link_createAcount" href="./src/views/register.html">Create account</a>
-        </p>
     </main>
     
 
-    <script type="module" src="../controllers/login.ts"></script>
+    <script type="module" src="../controllers/register.ts"></script>
 </body>
 </html>
