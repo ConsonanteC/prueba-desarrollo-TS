@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body {
+    gap: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("https://www.internetmatters.org/connecting-safely-online/wp-content/uploads/sites/2/2020/06/CYP-Fun-on-social.png"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 95%;
+    height: 100%;
+    margin-top: 40px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 15px;
+  width: 70%;
+  padding: 5px;
+  background-color: #7fffd4e2; 
+}
+
+h2 {
+  font-size: 45px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  a {
+    text-decoration: none;
+    color: #0000d6;
+    font-size: 20px;
+  }
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: 500px;
+  padding: 30px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.946);
+    form {
+      display: flex;
+      flex-direction: column;
+      margin: 20px;
+      gap: 5px;
+      width: 80%;
+    }
+}
+
+form input {
+  height: 30px;
+}
+
+form button {
+  margin-top: 20px;
+  background-color: #0000d6;
+  height: 40px;
+  color: white;
+  font-size: 18px;
+  border-radius: 12px;
+}
+
+a:hover {
+  color: black;
+  background-color: rgb(212, 212, 212);
+  border-radius: 15px;
+}
